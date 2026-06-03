@@ -8,8 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Invitado extends Model
 {
     use HasFactory;
-    protected $table="invitado";
 
+    protected $table = 'invitado';
 
-    protected $fillable = ['nombre', 'num_personas', 'comentarios'];
+    protected $fillable = [
+        'nombre',
+        'num_personas',
+        'comentarios',
+    ];
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mis Quince Ruby ❤️</title>
+    <title>Mis Quince Ashley ❤️</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -21,21 +21,15 @@
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
     </noscript>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicon/favicon-16x16.png') }}">
+    <link href="{{ asset('css/bootstrap.min.css') }}?ver=1.1.0" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link href="css/font-awesome/css/all.min.css?version=5.15.4" rel="stylesheet">
-    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-    <!-- CSRF Token -->
+    <link href="{{ asset('css/font-awesome/css/all.min.css') }}?version=5.15.4" rel="stylesheet">
+    <link href="{{ asset('css/aos.css') }}?ver=1.1.0" rel="stylesheet">
+    <link href="{{ asset('css/ekko-lightbox.css') }}?ver=1.1.0" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}?ver=1.1.0" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <!-- Scripts -->
-    <!-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])-->
     @livewireStyles
     <noscript>
         <style type="text/css">
@@ -49,29 +43,28 @@
 <body>
     <div id="app">
         <main>
-            @yield('content')
+            {{ $slot }}
         </main>
     </div>
     @livewireScripts
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
-    <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
-    <script src="scripts/aos.js?ver=1.1.0"></script>
-    <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
-    <script src="scripts/main.js?ver=1.1.0"></script>
-    <script src="scripts/simplyCountdown.min.js"></script>
-    <script src="scripts/simply_count.js" ></script>
-    <script src="scripts/music.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="{{ asset('scripts/bootstrap.bundle.min.js') }}?ver=1.1.0"></script>
+    <script src="{{ asset('scripts/aos.js') }}?ver=1.1.0"></script>
+    <script src="{{ asset('scripts/ekko-lightbox.min.js') }}?ver=1.1.0"></script>
+    <script src="{{ asset('scripts/main.js') }}?ver=1.1.0"></script>
+    <script src="{{ asset('scripts/simplyCountdown.min.js') }}"></script>
+    <script src="{{ asset('scripts/simply_count.js') }}"></script>
+    <script src="{{ asset('scripts/music.js') }}"></script>
     <script>
-        document.addEventListener('livewire:load', function () {
-            window.addEventListener('showSuccessMessage', event => {
+        document.addEventListener('livewire:init', () => {
+            Livewire.on('showSuccessMessage', () => {
                 Swal.fire({
                     title: '¡Guardado!',
-                    text: "Gracias por confirmar tu asistencia 🤠",
+                    text: 'Gracias por confirmar tu asistencia 🤠',
                     icon: 'success',
-                    confirmButtonColor: "#88957b"
+                    confirmButtonColor: '#88957b'
                 });
-            })
+            });
         });
     </script>
 </body>

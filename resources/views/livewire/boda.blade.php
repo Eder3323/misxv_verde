@@ -31,7 +31,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="../images/horse/horse.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Mis Padres</h1>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                 <p class="pt-3 text-md-right text-sm-center poppins_regular ">Agradezco a Dios la oportunidad de ver a mi adorada hija el día de hoy convertida en una mujer. Agradezco la suerte de ser tu padre y quiero que sepas lo orgulloso que estoy de verte hoy tan hermosa y tan realizada. ¡Feliz quince años! Te quiero hasta el cielo y más allá.</p>
                             </div>
                             <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="../images/padrinos/parents2.jpeg" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100" src="{{ asset('images/padrinos/parents2.jpeg') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Araceli Cruz Cervantes</h3>
@@ -62,12 +62,12 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="../images/horse/horse2.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse2.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center  rouge-script www-title-rose-color"
                                     data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Velación
                                 </h1>
                                 <!-- <img class="img-fluid dress_class mb-2 pb-3"
-                                     src="../images/flowers/vestido/dress.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
+                                     src="{{ asset('images/flowers/vestido/dress.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
                             </div>
                         </div>
                         <div class="row d-flex align-items-center justify-content-center pb-4">
@@ -80,7 +80,7 @@
                                 <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi amada Ruby agradezco a Dios y a tus padres por hacerme el tío más feliz y hoy a ti por elegirme tu padrino. Que hoy, mañana y siempre seas la mujer más feliz de este mundo te quiero mucho mi Ruby.</p>
                             </div>
                             <div class="col-md-4 pb-4">
-                                <img class="img-fluid w-100 " src="../images/padrinos/dress4.png" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100 " src="{{ asset('images/padrinos/dress4.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Saraí Nolasco</h3>
@@ -97,7 +97,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid flower_class mb-2" src="../images/horse/horse3.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse3.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center rouge-script www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Iglesia
                             </h1>
@@ -113,7 +113,7 @@
                             <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ruby, desde que llegaste a nuestras vidas, has sido una fuente inagotable de alegría. Ser tu padrino es un honor que valoro mucho. En tus quince años, te deseo una vida llena de amor y felicidad. Siempre estaré aquí para ti. Te quiero muchísimo.! </p>
                         </div>
                         <div class="col-md-4 pb-4">
-                            <img class="img-fluid w-100" src="../images/padrinos/example3.png" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid w-100" src="{{ asset('images/padrinos/example3.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                         </div>
                         <div class="col-md-4" data-aos='fade-right'>
                             <h3 class="h2 rouge-script">Lidia Morales</h3>
@@ -147,7 +147,7 @@
                 <div class="container ww-wedding-event">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="../images/horse/horse4.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse4.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center pb-3 ww-title www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">¿Dónde y Cuándo?</h1>
                         </div>
@@ -168,7 +168,7 @@
                                         </li>
                                     </ul>
                                     <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid rounded-lg w-100" style="max-width: 200px;" src="images/places/church3.jpg" alt="Wedding Party"/>
+                                        <img class="img-fluid rounded-lg w-100" style="max-width: 200px;" src="{{ asset('images/places/church3.jpg') }}" alt="Wedding Party"/>
                                     </div>
                                 </div>
                             </div>
@@ -188,7 +188,7 @@
                                         </li>
                                     </ul>
                                     <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid w-100 rounded-lg" style="max-width: 280px;" src="images/places/rancho2.jpg" alt="Reception"/>
+                                        <img class="img-fluid w-100 rounded-lg" style="max-width: 280px;" src="{{ asset('images/places/rancho2.jpg') }}" alt="Reception"/>
                                     </div>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid mb-2 flower_class" src="../images/horse/horse5.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse5.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeria de Fotos</h2>
                             </div>
                         </div>
@@ -211,23 +211,23 @@
                         <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
                             <div class="card-columns">
                                 <div class="card">
-                                    <a href="images/quinceanera/q1.jpeg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q1.jpeg" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/q1.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q1.jpeg') }}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="images/quinceanera/q2.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q2.jpg" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/q2.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q2.jpg') }}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="images/quinceanera/q3.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q3.jpg" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/q3.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q3.jpg') }}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="images/quinceanera/q4.jpg" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="images/quinceanera/q4.jpg" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/q4.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q4.jpg') }}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
 
@@ -244,7 +244,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="../images/horse/horse6.png" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse6.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                         <div class="col md-6 pb-3">
                                             <div class="form-group poppins_regular">
                                                 <label for="name-input"> Nombre</label>
-                                                <input class="form-control form_class" id="name-input" wire:model="name" type="text" name="name" required="required"/>
+                                                <input class="form-control form_class" id="name-input" wire:model.live="name" type="text" name="name" required="required"/>
                                                 <div class="h3 badge badge-success">@error('name') {{ $message }} @enderror</div>
                                             </div>
                                         </div>
@@ -286,7 +286,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center poppins_regular">
-                                            <button class="btn btn-primary btn-submit " type="button" wire:click="SaveData">Enviar</button>
+                                            <button class="btn btn-primary btn-submit " type="button" wire:click="saveData">Enviar</button>
                                             <div wire:loading >
                                                 {{__('cargando ...')}}
                                            </div>
@@ -312,7 +312,7 @@
                 </div>
                 <div class="container text-center py-4 d-none">
                     <audio id="background-music" controls muted autoplay loop>
-                        <source src="/music/vals_amor.mp3" type="audio/mp3">
+                        <source src="{{ asset('music/vals_amor.mp3') }}" type="audio/mp3">
                     </audio>
                 </div>
             </div>
@@ -322,6 +322,6 @@
     </div>
     <footer></footer>
     <div id="mute-icon"  onclick="toggleMute()">
-        <img id="mute-img" src="/music/mute.svg" alt="Mute/Unmute Icon" style="max-width: 55px;">
+        <img id="mute-img" src="{{ asset('music/mute.svg') }}" alt="Mute/Unmute Icon" style="max-width: 55px;">
     </div>
 
