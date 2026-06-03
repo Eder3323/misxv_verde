@@ -1,27 +1,66 @@
 <div>
       <div class="page-content">
         <div class="div w-100">
-            {{-------------------       HOME       ------------------------------}}
-            <div class="ww-home-page" id="home">
-                <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
-                    <div class="container ww-announcement-container">
-                        <div class="mt-lg-5 mb-md-5 p-4" data-aos="zoom-in-down">
-                            <h1 class="ww_my_wedding">MIS QUINCE </h1>
-                        </div>
-                        <h1 class="ww-couple-name ww-title mt-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
-                            <span class="ww-title">Ruby Escobedo Cruz</span>
-                        </h1>
-                        <div class="hei">
-                            <div class="p-4">
-                            </div>
-                            <div class="p-3">
-                            </div>
-                        </div>
-                        <div class="simply-countdown simply-countdown-one mt-4"></div>
-                        <p class="flex mt-2 ww-title_date" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000"
-                           data-aos-offset="10">22 de Junio 2024
-                        </p>
+            {{-------------------       PORTADA / HERO       ------------------------------}}
+            <nav class="navbar navbar-expand-lg ww-nav-bar fixed-top" aria-label="Navegación principal">
+                <div class="container ww-nav-container">
+                    <button class="navbar-toggler ww-nav-toggler order-1" type="button" data-toggle="collapse" data-target="#heroNav"
+                            aria-controls="heroNav" aria-expanded="false" aria-label="Abrir menú">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse order-2 justify-content-center" id="heroNav">
+                        <ul class="navbar-nav ww-nav-links text-center">
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MIS_PALABRAS">Mi Historia</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Evento</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">Confirma tu asistencia</a></li>
+                        </ul>
+                    </div>
+                    <div class="ww-nav-heart order-3" aria-hidden="true">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </nav>
 
+            <div class="ww-home-page" id="home">
+                <img class="ww-deco-floral ww-deco-floral--tl" src="{{ asset('images/ramo/pngtree-flower-frame-with-watercolor-flowers-png-image_7887052-removebg-preview.png') }}" alt="" aria-hidden="true"/>
+                <img class="ww-deco-floral ww-deco-floral--br" src="{{ asset('images/ramo/RAMO.png') }}" alt="" aria-hidden="true"/>
+
+                <div class="ww-wedding-announcement d-flex align-items-center">
+                    <div class="container-fluid ww-hero-container px-lg-4">
+                        <div class="row align-items-center ww-hero-row no-gutters">
+                            <div class="col-lg-6 col-md-12 ww-hero-visual" data-aos="fade-right" data-aos-duration="1000">
+                                <div class="ww-hero-portrait-wrap">
+                                    <div class="ww-hero-wash" aria-hidden="true"></div>
+                                    <img class="ww-hero-portrait" src="{{ asset('images/quinceanera/ash_2.png') }}" alt="Ashley — Mis XV Años"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 ww-hero-content" data-aos="fade-left" data-aos-duration="1000">
+                                <div class="ww-hero-text-block">
+
+                                    <h1 class="ww_my_wedding">MIS XV AÑOS</h1>
+                                    <h2 class="ww-hero-name ww-title">
+                                        <span class="ww-title">Ashley</span>
+                                    </h2>
+
+                                    <div class="ww-hero-divider" aria-hidden="true">
+                                        <span class="ww-hero-divider-line"></span>
+                                        <i class="fas fa-heart ww-hero-divider-heart"></i>
+                                        <span class="ww-hero-divider-line"></span>
+                                    </div>
+
+                                    <p class="ww-title_date">8 · AGOSTO · 2026</p>
+                                    <div class="ww-hero-gold-rule" aria-hidden="true"></div>
+
+                                    <p class="ww-hero-countdown-label">Faltan</p>
+                                    <div class="simply-countdown simply-countdown-one ww-hero-countdown"></div>
+
+                                    <a class="ww-hero-scroll smooth-scroll" href="#MIS_PALABRAS" aria-label="Desplazarse hacia abajo">
+                                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,41 +193,38 @@
                     </div>
                     <div class="row ">
                         <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-3 " data-aos="fade-down-right" data-aos-duration="1000">
-                            <div class="shadow-lg p-2 rounded-lg custom-shadow">
+                            <div class="shadow-lg p-2 rounded-lg custom-shadow ww-event-card">
                                 <div class="p-3 rounded-lg shadow-lg">
-                                    <div class="h4 ww-title text-center">Ceremonia Religiosa <i class="fas fa-church text-muted"></i></div>
-                                    <div class="h4 poppins_regular">Pqa. San Francisco de Asis</div>
+                                    <div class="h4 ww-title text-center www-title-accent">Misa <i class="fas fa-church text-muted" aria-hidden="true"></i></div>
+                                    <div class="h5 poppins_regular text-center mb-3">La Villita en Juárez</div>
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">Centro, 43700 Jaltepec, Tulancingo, Hgo</span></li>
-                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted"></i><span class="pl-2 text-muted">22 Jun 2024, 1PM - 2PM</span></li>
-                                        <li class="d-flex justify-content-center align-items-center">
-                                            <a class="p-0 m-0 " target="_blank" href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDg2OTFqMGoxqAIAsAIA&um=1&ie=UTF-8&fb=1&gl=mx&sa=X&geocode=KT-wuhzDVdCFMQREEgMh96AT&daddr=Centro,+43700+Jaltepec,+Hgo.">
-                                                <button type="button" class="btn btn-warning mt-2 party_btn btn_maps">Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i> </button>
-                                            </a>
-                                        </li>
+                                        <li><i class="fas fa-map-marker-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">Juárez</span></li>
+                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">8 de Agosto del 2026</span></li>
+                                        <li class="pt-2"><i class="fas fa-clock text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">1:00 PM</span></li>
                                     </ul>
-                                    <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid rounded-lg w-100" style="max-width: 200px;" src="{{ asset('images/places/church3.jpg') }}" alt="Wedding Party"/>
+                                    <div class="row d-flex align-items-center justify-content-center mt-3">
+                                        <img class="img-fluid rounded-lg w-100 ww-event-card-img" src="{{ asset('images/places/church3.jpg') }}" alt="Misa — La Villita en Juárez"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center pt-3"  data-aos="fade-up-right" data-aos-duration="1000">
-                            <div class="shadow-lg p-2 rounded-lg">
+                            <div class="shadow-lg p-2 rounded-lg ww-event-card">
                                 <div class="p-3 rounded-lg shadow-lg ">
-                                    <div class="h4 ww-title text-center">La Fiesta <i class="fas fa-hat-cowboy text-muted"></i></div>
-                                    <div class="h4 poppins_regular">Rancho Fam. Escobedo</div>
+                                    <div class="h4 ww-title text-center www-title-accent">Recepción / Comida <i class="fas fa-utensils text-muted" aria-hidden="true"></i></div>
+                                    <div class="h5 poppins_regular text-center mb-3">Salón Buenos Aires</div>
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt text-muted"></i><span class="pl-2 text-muted">S/N Emiliano Zapata, Tulancingo, Hgo.</span></li>
-                                        <li class="pt-2"><i class="text-muted fas fa-calendar-alt "></i><span class="pl-2 text-muted">22 Jun 2024, 2:30 PM</span></li>
-                                        <li class="d-flex justify-content-center align-items-center">
-                                            <a class="p-0 m-0" target="_blank" href="https://maps.app.goo.gl/RhgoTfcJHrviYrUu5">
-                                                <button type="button" class="btn btn-warning mt-2 church_btn"> Ver ubicación <i class="fas fa-map-marker-alt maps_color"></i></button>
+                                        <li><i class="fas fa-map-marker-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">Salón Buenos Aires</span></li>
+                                        <li class="pt-2"><i class="fas fa-calendar-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">8 de Agosto del 2026</span></li>
+                                        <li class="pt-2"><i class="fas fa-clock text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">3:00 PM</span></li>
+                                        <li class="d-flex justify-content-center align-items-center pt-3">
+                                            <a class="p-0 m-0" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/aFZU594dY9q3JqCu8">
+                                                <button type="button" class="btn mt-2 church_btn ww-btn-location">Cómo llegar <i class="fas fa-map-marker-alt maps_color" aria-hidden="true"></i></button>
                                             </a>
                                         </li>
                                     </ul>
-                                    <div class="row d-flex align-items-center justify-content-center">
-                                        <img class="img-fluid w-100 rounded-lg" style="max-width: 280px;" src="{{ asset('images/places/rancho2.jpg') }}" alt="Reception"/>
+                                    <div class="row d-flex align-items-center justify-content-center mt-3">
+                                        <img class="img-fluid w-100 rounded-lg ww-event-card-img" src="{{ asset('images/places/rancho2.jpg') }}" alt="Recepción — Salón Buenos Aires"/>
                                     </div>
                                 </div>
                             </div>
