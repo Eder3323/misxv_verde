@@ -374,3 +374,4 @@
         <img id="mute-img" src="{{ asset('music/mute.svg') }}" alt="Mute/Unmute Icon" style="max-width: 55px;">
     </div>
 
+</div>
