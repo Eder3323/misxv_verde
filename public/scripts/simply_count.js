@@ -7,7 +7,7 @@
         words: { //words displayed into the countdown
             days: { singular: 'Dia', plural: 'Días' },
             hours: { singular: 'Hora', plural: 'Horas' },
-            minutes: { singular: 'Minuto', plural: 'Minutos' },
+            minutes: { singular: 'Minuto', plural: 'Min' },
             seconds: { singular: 'Segundo', plural: 'Seg' }
         },
     });
