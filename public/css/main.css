@@ -48,7 +48,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .poppins_light {
   font-family: "Poppins", sans-serif;
@@ -682,10 +682,11 @@ body {
   max-width: 240px;
 }
 .ww-intro-text {
-  font-size: clamp(1rem, 2.8vw, 1.15rem);
+  /*font-size: clamp(1rem, 2.8vw, 1.15rem);*/
   line-height: 1.75;
   color: #5a6654;
   margin-bottom: 0.85rem;
+    font-size: 1.3rem;
 }
 .ww-intro-text:last-of-type {
   margin-bottom: 0;
