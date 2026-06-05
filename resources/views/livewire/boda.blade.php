@@ -152,14 +152,14 @@
                         <div class="row text-center pt-2">
                             <div class="col-md-4 mt-3" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">José Cruz</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ruby, agradezco a Dios y a tus papás por permitirme ser tu padrino. Gracias por elegirme para acompañarte en este día tan especial. Que tu vida esté siempre llena de felicidad. Te quiero mucho.</p>
+                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ashley, agradezco a Dios y a tus papás por permitirme ser tu padrino. Gracias por elegirme para acompañarte en este día tan especial. Que tu vida esté siempre llena de felicidad. Te quiero mucho.</p>
                             </div>
                             <div class="col-md-4 pb-4">
                                 <img class="img-fluid w-100 " src="{{ asset('images/dress/dress_principal_2.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Saraí Nolasco</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Ruby, vuela alto y nunca dejes de creer en tus sueños. Hoy celebramos a la hermosa mujer en la que te estás convirtiendo. Siempre estaré para apoyarte.</p>
+                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Ashley, vuela alto y nunca dejes de creer en tus sueños. Hoy celebramos a la hermosa mujer en la que te estás convirtiendo. Siempre estaré para apoyarte.</p>
                             </div>
                         </div>
                     </div>
@@ -185,14 +185,14 @@
                     <div class="row text-center pt-2">
                         <div class="col-md-4 mt-3" data-aos='fade-right'>
                             <h3 class="h2 rouge-script">Silviano Ortíz</h3>
-                            <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ruby, desde que llegaste a nuestras vidas, has sido una fuente inagotable de alegría. Ser tu padrino es un honor que valoro mucho. En tus quince años, te deseo una vida llena de amor y felicidad. Siempre estaré aquí para ti. Te quiero muchísimo.! </p>
+                            <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ashley, ser tu padrino es un honor; en tus XV te deseo una vida llena de amor y felicidad, siempre estaré para ti.  </p>
                         </div>
                         <div class="col-md-4 pb-4">
                             <img class="img-fluid w-100" src="{{ asset('images/padrinos/example3.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                         </div>
                         <div class="col-md-4" data-aos='fade-right'>
                             <h3 class="h2 rouge-script">Lidia Morales</h3>
-                            <p class="pt-3 text-md-left text-sm-center poppins_regular">Querida Ruby, en tus quince años, te deseo que vueles alto y persigas tus sueños con valentía. Hoy despliegas tus alas para convertirte en una hermosa mariposa, y siempre estaré aquí para apoyarte en cada vuelo. ¡Feliz cumpleaños, linda mujer!.</p>
+                            <p class="pt-3 text-md-left text-sm-center poppins_regular">Querida Ashley, vuela alto y persigue tus sueños; hoy despliegas tus alas y siempre estaré contigo para apoyarte. 💕.</p>
                         </div>
                     </div>
                 </div>
