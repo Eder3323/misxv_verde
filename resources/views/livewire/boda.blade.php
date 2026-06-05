@@ -109,14 +109,14 @@
                         <div class="row text-center pt-2">
                             <div class="col-md-4 mt-3" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Armando Hernández </h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Agradezco a Dios la oportunidad de ver a mi adorada hija el día de hoy convertida en una mujer. Agradezco la suerte de ser tu padre y quiero que sepas lo orgulloso que estoy de verte hoy tan hermosa y tan realizada. ¡Feliz quince años! Te quiero hasta el cielo y más allá.</p>
+                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Gracias a Dios por permitirme verte hoy convertida en una hermosa mujer. Ser tu padre es el mayor orgullo de mi vida. ¡Felices XV, hija! Te amo más allá del cielo.</p>
                             </div>
                             <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="{{ asset('images/parents/parents_principal.jpeg') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100" src="{{ asset('images/parents/parents_second.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Maria González</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Me has enseñado la construcción de la originalidad en la vida, me has enseñado a ser mamá a ser amiga, a ser compañera de camino. Hoy, que cumples tus 15 años, quiero darle gracias a Dios, por la vida, y porque me ha dado la oportunidad de acompañarte, de apoyarte y amarte.</p>
+                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Gracias por enseñarme a ser mamá y compañera de vida. Hoy agradezco a Dios por tus 15 años y por permitirme caminar a tu lado. Te amo con todo mi corazón.</p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse2.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center  rouge-script www-title-rose-color"
                                     data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Velación
                                 </h1>
@@ -152,14 +152,14 @@
                         <div class="row text-center pt-2">
                             <div class="col-md-4 mt-3" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">José Cruz</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi amada Ruby agradezco a Dios y a tus padres por hacerme el tío más feliz y hoy a ti por elegirme tu padrino. Que hoy, mañana y siempre seas la mujer más feliz de este mundo te quiero mucho mi Ruby.</p>
+                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ruby, agradezco a Dios y a tus papás por permitirme ser tu padrino. Gracias por elegirme para acompañarte en este día tan especial. Que tu vida esté siempre llena de felicidad. Te quiero mucho.</p>
                             </div>
                             <div class="col-md-4 pb-4">
-                                <img class="img-fluid w-100 " src="{{ asset('images/padrinos/dress4.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100 " src="{{ asset('images/dress/dress_principal_2.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
                                 <h3 class="h2 rouge-script">Saraí Nolasco</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Vuela Ruby, que nadie te detendrá, lucha por tus sueños, ve en busca de lo que realmente anhelas. Felices quince años. Para una linda mujer que hoy ha desplegado las alas para convertirse en una hermosa mariposa. Nunca dejes de soñar, que tus padrinos estaremos siempre para apoyarte.</p>
+                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Ruby, vuela alto y nunca dejes de creer en tus sueños. Hoy celebramos a la hermosa mujer en la que te estás convirtiendo. Siempre estaré para apoyarte.</p>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse3.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center rouge-script www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Iglesia
                             </h1>
@@ -222,7 +222,7 @@
                 <div class="container ww-wedding-event">
                     <div class="row">
                         <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse4.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/places/donde_y_cuando_removed.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                             <h1 class="h1 text-center pb-3 ww-title www-title-rose-color"
                                 data-aos="zoom-in-down" data-aos-duration="1000">¿Dónde y Cuándo?</h1>
                         </div>
@@ -280,7 +280,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse5.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/gallery/gallery.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeria de Fotos</h2>
                             </div>
                         </div>
@@ -317,69 +317,69 @@
             <hr class="hr_rounded rounded">
 
 {{--      --}}{{----}}{{-------------------            FORM ASISTENCIA  --}}{{----}}{{--     --}}
-            <div class="ww-section ww-rsvp-detail" id="rsvp">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse6.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                            <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>
-                        </div>
-                    </div>
-                    <div class="row ww-rsvp-form">
-                        <div class="col-md-8 frame_dorado rounded-lg mx-2">
-                            <div class="card-body">
-                                <form >
-                                    <div class="row">
-                                        <div class="col md-6 pb-3">
-                                            <div class="form-group poppins_regular">
-                                                <label for="name-input"> Nombre</label>
-                                                <input class="form-control form_class" id="name-input" wire:model.live="name" type="text" name="name" required="required"/>
-                                                <div class="h3 badge badge-success">@error('name') {{ $message }} @enderror</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col md-6 pb-3">
-                                            <div class="form-group poppins_regular">
-                                                <label for="guest-input">Número de personas confirmadas</label>
-                                                <select class="form-control form_class" id="guest-input" wire:model="people_confirmed" name="guest">
-                                                    <option value="1">Uno</option>
-                                                    <option value="2">Dos</option>
-                                                    <option value="3">Tres</option>
-                                                    <option value="4">Cuatro</option>
-                                                    <option value="5">Cinco o más</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row pb-3">
-                                        <div class="col">
-                                            <div class="form-group poppins_regular">
-                                                <label for="message-input">Nombres de quienes asisten</label>
-                                                <textarea class="form-control" id="message-input" name="message" wire:model="people_asist" rows="4"></textarea>
-                                                <div class="text-danger">@error('people_asist') {{ $message }} @enderror</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col text-center poppins_regular">
-                                            <button class="btn btn-primary btn-submit " type="button" wire:click="saveData">Enviar</button>
-                                            <div wire:loading >
-                                                {{__('cargando ...')}}
-                                           </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <div class=" mt-2" >
-                                    <div class="row text-center poppins_regular" >
-                                        <h4 id="span_text_saved"><strong><span class="badge badge-success">{{$this->message_succes}}</span></strong></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--            <div class="ww-section ww-rsvp-detail" id="rsvp">--}}
+{{--                <div class="container">--}}
+{{--                    <div class="row">--}}
+{{--                        <div class="col">--}}
+{{--                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/horse/horse6.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>--}}
+{{--                            <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Confirmar asistencia </h2>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="row ww-rsvp-form">--}}
+{{--                        <div class="col-md-8 frame_dorado rounded-lg mx-2">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <form >--}}
+{{--                                    <div class="row">--}}
+{{--                                        <div class="col md-6 pb-3">--}}
+{{--                                            <div class="form-group poppins_regular">--}}
+{{--                                                <label for="name-input"> Nombre</label>--}}
+{{--                                                <input class="form-control form_class" id="name-input" wire:model.live="name" type="text" name="name" required="required"/>--}}
+{{--                                                <div class="h3 badge badge-success">@error('name') {{ $message }} @enderror</div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="row">--}}
+{{--                                        <div class="col md-6 pb-3">--}}
+{{--                                            <div class="form-group poppins_regular">--}}
+{{--                                                <label for="guest-input">Número de personas confirmadas</label>--}}
+{{--                                                <select class="form-control form_class" id="guest-input" wire:model="people_confirmed" name="guest">--}}
+{{--                                                    <option value="1">Uno</option>--}}
+{{--                                                    <option value="2">Dos</option>--}}
+{{--                                                    <option value="3">Tres</option>--}}
+{{--                                                    <option value="4">Cuatro</option>--}}
+{{--                                                    <option value="5">Cinco o más</option>--}}
+{{--                                                </select>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="row pb-3">--}}
+{{--                                        <div class="col">--}}
+{{--                                            <div class="form-group poppins_regular">--}}
+{{--                                                <label for="message-input">Nombres de quienes asisten</label>--}}
+{{--                                                <textarea class="form-control" id="message-input" name="message" wire:model="people_asist" rows="4"></textarea>--}}
+{{--                                                <div class="text-danger">@error('people_asist') {{ $message }} @enderror</div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="row">--}}
+{{--                                        <div class="col text-center poppins_regular">--}}
+{{--                                            <button class="btn btn-primary btn-submit " type="button" wire:click="saveData">Enviar</button>--}}
+{{--                                            <div wire:loading >--}}
+{{--                                                {{__('cargando ...')}}--}}
+{{--                                           </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </form>--}}
+{{--                                <div class=" mt-2" >--}}
+{{--                                    <div class="row text-center poppins_regular" >--}}
+{{--                                        <h4 id="span_text_saved"><strong><span class="badge badge-success">{{$this->message_succes}}</span></strong></h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
 
             <div class="ww-footer bg-light">
