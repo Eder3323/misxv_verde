@@ -98,7 +98,7 @@
                     <div class="container"  >
                         <div class="row">
                             <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/horse/horse.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
                                 <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Mis Padres</h1>
                             </div>
                         </div>
@@ -108,14 +108,14 @@
                         </div>
                         <div class="row text-center pt-2">
                             <div class="col-md-4 mt-3" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Alejandro Escobedo Lira</h3>
+                                <h3 class="h2 rouge-script">Armando Hernández </h3>
                                 <p class="pt-3 text-md-right text-sm-center poppins_regular ">Agradezco a Dios la oportunidad de ver a mi adorada hija el día de hoy convertida en una mujer. Agradezco la suerte de ser tu padre y quiero que sepas lo orgulloso que estoy de verte hoy tan hermosa y tan realizada. ¡Feliz quince años! Te quiero hasta el cielo y más allá.</p>
                             </div>
                             <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="{{ asset('images/padrinos/parents2.jpeg') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
+                                <img class="img-fluid w-100" src="{{ asset('images/parents/parents_principal.jpeg') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
                             </div>
                             <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Araceli Cruz Cervantes</h3>
+                                <h3 class="h2 rouge-script">Maria González</h3>
                                 <p class="pt-3 text-md-left text-sm-center poppins_regular">Me has enseñado la construcción de la originalidad en la vida, me has enseñado a ser mamá a ser amiga, a ser compañera de camino. Hoy, que cumples tus 15 años, quiero darle gracias a Dios, por la vida, y porque me ha dado la oportunidad de acompañarte, de apoyarte y amarte.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                     data-aos="zoom-in-down" data-aos-duration="1000">Mis Padrinos De Velación
                                 </h1>
                                 <!-- <img class="img-fluid dress_class mb-2 pb-3"
-                                     src="{{ asset('images/flowers/vestido/dress.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
+                                     src="{{ asset('images/dress/green_dress-removebg.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
                             </div>
                         </div>
                         <div class="row d-flex align-items-center justify-content-center pb-4">
