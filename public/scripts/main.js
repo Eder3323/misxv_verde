@@ -7,6 +7,14 @@ $(document).ready(function() {
   }); // initialize animate on scroll library
 });
 
+// Collapse navbar when a nav link is clicked (mobile menu)
+$(".ww-nav-bar .nav-link, .ww-nav-bar .ww-nav-heart").on("click", function() {
+  var $collapse = $("#heroNav");
+  if ($collapse.hasClass("show")) {
+    $collapse.collapse("hide");
+  }
+});
+
 // Smooth scroll for links with hashes
 $("a.smooth-scroll").click(function(event) {
   // On-page links

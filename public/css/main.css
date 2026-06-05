@@ -4,7 +4,9 @@ body {
   --color-primary: #BACBAF;
   --color-secondary: #BFCCB2;
   --color-deep: #9FAF96;
-  --color-cream: #F3E8D8;
+  --color-deep-custom:  #7e9074;
+  --color-cream: #fcfaf6;
+  /*--color-cream: #f8f1e7;*/
   --color-gold: #C8A95B;
   --color-rose: #C4A090;
   --color-rose-soft: #D4A5A5;
@@ -112,15 +114,59 @@ body {
   position: relative;
   z-index: 2;
   color: var(--color-deep);
+  isolation: isolate;
+  overflow: hidden;
+}
+.ww-home-page .ww-wedding-announcement::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, rgba(186, 203, 175, 0.22) 0%, transparent 22%),
+    linear-gradient(to top, rgba(186, 203, 175, 0.16) 0%, transparent 18%),
+    linear-gradient(to right, rgba(191, 204, 178, 0.18) 0%, transparent 20%),
+    linear-gradient(to left, rgba(212, 165, 165, 0.14) 0%, transparent 20%);
+}
+.ww-home-page .ww-wedding-announcement::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 72% 68% at 50% 48%,
+    transparent 42%,
+    rgba(243, 232, 216, 0.15) 68%,
+    rgba(186, 203, 175, 0.2) 88%,
+    rgba(159, 175, 150, 0.12) 100%
+  );
 }
 @media (max-width: 576px) {
   .ww-home-page .ww-wedding-announcement {
     min-height: auto;
     padding: 0.5rem 0 2rem;
   }
+  .ww-home-page .ww-wedding-announcement::before {
+    background:
+      linear-gradient(to bottom, rgba(186, 203, 175, 0.16) 0%, transparent 16%),
+      linear-gradient(to top, rgba(186, 203, 175, 0.12) 0%, transparent 14%),
+      linear-gradient(to right, rgba(191, 204, 178, 0.13) 0%, transparent 14%),
+      linear-gradient(to left, rgba(212, 165, 165, 0.1) 0%, transparent 14%);
+  }
+  .ww-home-page .ww-wedding-announcement::after {
+    background: radial-gradient(
+      ellipse 88% 75% at 50% 42%,
+      transparent 48%,
+      rgba(186, 203, 175, 0.14) 100%
+    );
+  }
 }
 .ww-hero-container {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .ww-hero-row {
   min-height: calc(100vh - 100px);
@@ -396,9 +442,28 @@ body {
   right: 0.75rem;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--color-rose-soft);
-  font-size: 1rem;
-  line-height: 1;
+  line-height: 0;
+  text-decoration: none;
+  display: block;
+}
+.ww-nav-heart-img {
+  display: block;
+  height: 48px;
+  width: auto;
+  max-width: 116px;
+  aspect-ratio: 778 / 321;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+}
+@media (max-width: 576px) {
+  .ww-nav-heart-img {
+    height: 40px;
+    max-width: 97px;
+    border-radius: 8px;
+  }
 }
 .ww-nav-toggler {
   position: absolute;
@@ -575,6 +640,71 @@ body {
 
 .ww-section {
   padding: 100px 0;
+}
+.ww-intro-section {
+  padding: 4.5rem 0 3.5rem;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(186, 203, 175, 0.14) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 50% at 85% 100%, rgba(212, 165, 165, 0.08) 0%, transparent 65%),
+    var(--color-cream);
+}
+.ww-intro-card {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(186, 203, 175, 0.35);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(159, 175, 150, 0.1);
+}
+.ww-intro-greeting {
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(2.2rem, 7vw, 3.25rem);
+  color: var(--color-deep);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+}
+.ww-intro-name {
+  color: var(--color-deep);
+}
+.ww-intro-heart {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.80em;
+  vertical-align: middle;
+}
+.ww-intro-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 0.75rem auto 1.5rem;
+  max-width: 240px;
+}
+.ww-intro-text {
+  font-size: clamp(1rem, 2.8vw, 1.15rem);
+  line-height: 1.75;
+  color: #5a6654;
+  margin-bottom: 0.85rem;
+}
+.ww-intro-text:last-of-type {
+  margin-bottom: 0;
+}
+.ww-intro-text--highlight {
+  color: var(--color-deep-custom);
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+@media (max-width: 576px) {
+  .ww-intro-section {
+    padding: 3rem 0 2.5rem;
+  }
+  .ww-intro-card {
+    padding: 2rem 1.25rem;
+    margin: 0 0.5rem;
+  }
+  .ww-intro-text {
+    line-height: 1.65;
+  }
 }
 
 .btn-primary {

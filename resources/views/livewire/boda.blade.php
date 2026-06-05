@@ -11,14 +11,14 @@
                     <div class="collapse navbar-collapse order-2 justify-content-center" id="heroNav">
                         <ul class="navbar-nav ww-nav-links text-center">
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MIS_PALABRAS">Mi Historia</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MI_HISTORIA">Mi Historia</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Evento</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">Confirma tu asistencia</a></li>
                         </ul>
                     </div>
-                    <div class="ww-nav-heart order-3" aria-hidden="true">
-                        <i class="far fa-heart"></i>
-                    </div>
+                    <a class="ww-nav-heart smooth-scroll order-3" href="#home" aria-label="Ir al inicio">
+                        <img class="ww-nav-heart-img" src="{{ asset('images/icon/icon_ashley.png') }}" alt="Ashley — Mis XV Años"/>
+                    </a>
                 </div>
             </nav>
 
@@ -55,13 +55,41 @@
                                     <p class="ww-hero-countdown-label">Faltan</p>
                                     <div class="simply-countdown simply-countdown-one ww-hero-countdown pb-4"></div>
 
-                                    <a class="ww-hero-scroll smooth-scroll" href="#MY_PARENTS" aria-label="Desplazarse hacia abajo">
+                                    <a class="ww-hero-scroll smooth-scroll" href="#MI_HISTORIA" aria-label="Desplazarse hacia abajo">
                                         <i class="fas fa-chevron-down" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+{{-------------------     MI HISTORIA / PRESENTACIÓN     --}}
+            <div class="ww-section ww-intro-section" id="MI_HISTORIA">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10 col-12" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="ww-intro-card text-center">
+                                <h2 class="ww-intro-greeting">
+                                    Hola, soy <span class="ww-intro-name">Ashley</span>
+                                </h2>
+                                <div class="ww-intro-divider" aria-hidden="true">
+                                    <span class="ww-hero-divider-line"></span>
+                                    <i class="fas fa-heart ww-hero-divider-heart"></i>
+                                    <span class="ww-hero-divider-line"></span>
+                                </div>
+                                <p class="ww-intro-text poppins_regular">Hoy agradezco a Dios por este momento tan especial.</p>
+                                <p class="ww-intro-text poppins_regular">Gracias a mis papás por su amor incondicional.</p>
+                                <p class="ww-intro-text poppins_regular ww-intro-text--highlight">Con ilusión celebro mis XV, feliz de compartir esta alegría con quienes siempre guardaré en mi corazón.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center pt-4">
+                    <a class="ww-hero-scroll smooth-scroll" href="#MY_PARENTS" aria-label="Desplazarse hacia Mis Padres">
+                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
 
@@ -174,7 +202,7 @@
             <div class="py-5">
                 <div class="col-12 py-5">
                     <div class="ww-section quote-container"
-                         data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000" id="MIS_PALABRAS">
+                         data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000" >
                         <div class="frame_blue m-4 h-auto">
                             <i class="fas fa-quote-left fa-3x quote_color"></i>
                             <div class="d-flex justify-content-center text-center">
