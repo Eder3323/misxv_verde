@@ -375,7 +375,7 @@
                 </div>
                 <div class="container text-center py-4 d-none">
                     <audio id="background-music" controls muted autoplay loop>
-                        <source src="{{ asset('music/vals_amor.mp3') }}" type="audio/mp3">
+                        <source src="{{ asset('music/song_cut.mp3') }}" type="audio/mp3">
                     </audio>
                 </div>
             </div>
