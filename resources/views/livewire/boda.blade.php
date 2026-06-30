@@ -315,45 +315,59 @@
             <div class="ww-section " id="gallery">
                 <div class="ww-photo-gallery">
                     <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/gallery/gallery.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeria de Fotos</h2>
-                            </div>
-                        </div>
+{{--                        <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">--}}
+{{--                            <div class="card">--}}
+{{--                                <a href="{{ asset('images/quinceanera/pic_7.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                    <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_7.jpg') }}" alt="Gallery Pic 7"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">--}}
+{{--                            <div class="card">--}}
+{{--                                <a href="{{ asset('images/quinceanera/pic_8.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                    <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_8.jpeg') }}" alt="Gallery Pic 8"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/gallery/gallery.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>--}}
+{{--                                <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeria de Fotos</h2>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="col-md-12 text-center ww-category-filter mb-4"></div>
                         <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
                             <div class="card-columns">
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/pic_1.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_1.jpeg') }}" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/pic_7.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_7.jpg') }}" alt="Gallery Pic 7"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/pic_2.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_2.jpeg') }}" alt="Gallery Pic 2"/>
+                                    <a href="{{ asset('images/quinceanera/pic_8.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_8.jpeg') }}" alt="Gallery Pic 8"/>
                                     </a>
                                 </div>
-                                <div class="card">
-                                    <a href="{{ asset('images/quinceanera/pic_3.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_3.jpeg') }}" alt="Gallery Pic 3"/>
-                                    </a>
-                                </div>
-                                <div class="card">
-                                    <a href="{{ asset('images/quinceanera/pic_4.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_4.jpeg') }}" alt="Gallery Pic 4"/>
-                                    </a>
-                                </div>
+{{--                                <div class="card">--}}
+{{--                                    <a href="{{ asset('images/quinceanera/pic_3.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_3.jpeg') }}" alt="Gallery Pic 3"/>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                                <div class="card">--}}
+{{--                                    <a href="{{ asset('images/quinceanera/pic_4.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_4.jpeg') }}" alt="Gallery Pic 4"/>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
 {{--                                <div class="card">--}}
 {{--                                    <a href="{{ asset('images/quinceanera/pic_6.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
 {{--                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_6.jpeg') }}" alt="Gallery Pic 6"/>--}}
 {{--                                    </a>--}}
 {{--                                </div>--}}
-                                <div class="card">
-                                    <a href="{{ asset('images/quinceanera/pic_5.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_5.jpeg') }}" alt="Gallery Pic 5"/>
-                                    </a>
-                                </div>
+{{--                                <div class="card">--}}
+{{--                                    <a href="{{ asset('images/quinceanera/pic_5.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_5.jpeg') }}" alt="Gallery Pic 5"/>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
 
                             </div>
                         </div>
