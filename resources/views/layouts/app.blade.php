@@ -28,7 +28,7 @@
     <link href="{{ asset('css/font-awesome/css/all.min.css') }}?version=5.15.4" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}?ver=1.1.0" rel="stylesheet">
     <link href="{{ asset('css/ekko-lightbox.css') }}?ver=1.1.0" rel="stylesheet">
-    <link href="{{ asset('css/main.css') }}?ver=1.3.5" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}?ver=1.3.6" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @livewireStyles
     <noscript>

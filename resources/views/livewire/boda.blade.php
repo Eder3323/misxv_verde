@@ -172,7 +172,14 @@
 
             <hr class="hr_rounded rounded">
 
-
+            <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                <div class="card">
+                    <a href="{{ asset('images/quinceanera/pic_4.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_4.jpeg') }}" alt="Gallery Pic 4"/>
+                    </a>
+                </div>
+            </div>
+            <hr class="hr_rounded rounded">
 
 
             {{--    --}}{{----}}{{------------------ PADRINOS VESTIDO --}}

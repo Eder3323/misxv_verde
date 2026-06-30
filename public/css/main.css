@@ -19,6 +19,10 @@ body {
   bottom: 20px;
   left: 20px;
   cursor: pointer;
+  z-index: 9999;
+  pointer-events: auto;
+  padding: 8px;
+  line-height: 0;
 }
 @font-face {
   font-family: 'Poppins-Regular';
