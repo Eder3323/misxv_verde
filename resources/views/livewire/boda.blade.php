@@ -80,7 +80,14 @@
                                     <span class="ww-hero-divider-line"></span>
                                 </div>
                                 <p class="ww-intro-text poppins_regular">El tiempo pasa volando y, casi sin darme cuenta, hoy llego a mis 15 años agradeciendo a Dios por la vida que me dio; a mis padres, por su amor y apoyo incondicional, por nunca soltar mi mano; y a mi familia, por ser parte de mi camino.</p>
-                                <p class="ww-intro-text poppins_regular">Hoy dejo atrás una infancia llena de amor, bendiciones y recuerdos hermosos que nunca olvidaré.</p>
+                                <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                                    <div class="card">
+                                        <a href="{{ asset('images/quinceanera/pic_2.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                            <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_2.jpeg') }}" alt="Gallery Pic 2"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="ww-intro-text poppins_regular pt-3">Hoy dejo atrás una infancia llena de amor, bendiciones y recuerdos hermosos que nunca olvidaré.</p>
                             </div>
                         </div>
                     </div>
@@ -88,14 +95,35 @@
                         <div class="col-lg-8 col-md-10 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="ww-intro-card text-center">
                                 <p class="ww-intro-text poppins_regular">Como una mariposa que despliega sus alas, hoy comienzo a volar hacia un nuevo horizonte: nuevos sueños, nuevas metas y la misma alegría de siempre.</p>
-                                <p class="ww-intro-text poppins_regular">La vida es un libro de aventuras y hoy empiezo a escribir un nuevo capítulo en mi historia, con la bendición de Dios y de mis padres.</p>
+                                <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                                    <div class="card">
+                                        <a href="{{ asset('images/quinceanera/pic_1.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                            <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_1.jpeg') }}" alt="Gallery Pic 1"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="ww-intro-text poppins_regular py-4">La vida es un libro de aventuras y hoy empiezo a escribir un nuevo capítulo en mi historia, con la bendición de Dios y de mis padres.</p>
+                                <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-duration="1000" data-aos-offset="0">
+                                    <div class="card">
+                                        <a href="{{ asset('images/quinceanera/pic_3.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                            <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_3.jpeg') }}" alt="Gallery Pic 3"/>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-lg-8 col-md-10 col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <div class="ww-intro-card text-center">
-                                <p class="ww-intro-text poppins_regular">¡Acompáñame a vivir este gran día: un sueño por cumplir, un momento para recordar y el inicio de mi juventud!</p>
+                                <p class="ww-intro-text poppins_regular pb-3">¡Acompáñame a vivir este gran día: un sueño por cumplir, un momento para recordar y el inicio de mi juventud!</p>
+                                <div data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                                    <div class="card">
+                                        <a href="{{ asset('images/quinceanera/pic_5.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                            <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_5.jpeg') }}" alt="Gallery Pic 1"/>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -178,12 +206,17 @@
                             </div>
                         </div>
                     </div>
+                    <div class="text-center pt-4">
+                        <a class="ww-hero-scroll smooth-scroll" href="#my_words" aria-label="Desplazarse hacia abajo">
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
 
             <hr class="hr_second rounded">
 
 {{--            --}}{{----}}{{----------            MIS PALABRAS --}}
-            <div class="py-3">
+            <div class="py-3" id="my_words">
                 <div class="col-12 py-5">
                     <div class="ww-section quote-container"
                          data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000" >
