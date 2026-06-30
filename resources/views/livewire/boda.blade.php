@@ -11,7 +11,7 @@
                     <div class="collapse navbar-collapse order-2 justify-content-center" id="heroNav">
                         <ul class="navbar-nav ww-nav-links text-center">
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MI_HISTORIA">Mi Historia</a></li>
+{{--                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MI_HISTORIA">Mi Historia</a></li>--}}
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Evento</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">Confirma tu asistencia</a></li>
                         </ul>
@@ -100,89 +100,90 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center pt-4">
-                    <a class="ww-hero-scroll smooth-scroll" href="#MY_PARENTS" aria-label="Desplazarse hacia Mis Padres">
-                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
-
-{{-------------------            PADRES  --}}
-                <div class="ww-section" id="MY_PARENTS">
-                    <div class="container"  >
-                        <div class="row">
-                            <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Mis Padres</h1>
-                            </div>
-                        </div>
-                        <div class="row d-flex align-items-center justify-content-center pb-4">
-                            <div class="col-md-8 col-sm-10">
-                            </div>
-                        </div>
-                        <div class="row text-center pt-2">
-                            <div class="col-md-4 mt-3" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Uziel Yair Cerón Pérez</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Gracias a Dios por permitirme verte hoy convertida en una hermosa mujer. Ser tu padre es el mayor orgullo de mi vida. ¡Felices XV, hija! Te amo más allá del cielo.</p>
-                            </div>
-                            <div class="col-md-4 mb-4">
-                                <img class="img-fluid w-100" src="{{ asset('images/parents/parents_second.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>
-                            </div>
-                            <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Lesly Cázares Gutiérrez</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Gracias por enseñarme a ser mamá y compañera de vida. Hoy agradezco a Dios por tus 15 años y por permitirme caminar a tu lado. Te amo con todo mi corazón.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center bg-gray-100 pt-3">
-                        <a class="ww-hero-scroll smooth-scroll" href="#GOD_PARENTS" aria-label="Desplazarse hacia abajo">
+                    <div class="text-center pt-4">
+                        <a class="ww-hero-scroll smooth-scroll" href="#MY_PARENTS" aria-label="Desplazarse hacia abajo">
                             <i class="fas fa-chevron-down" aria-hidden="true"></i>
                         </a>
                     </div>
-                </div>
+            </div>
 
-            <hr class="hr_rounded rounded">
+{{-------------------            PADRES  --}}
+
+{{--                <div class="ww-section" id="MY_PARENTS">--}}
+{{--                    <div class="container"  >--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>--}}
+{{--                                <h1 class="h1 text-center pb-3 rouge-script www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Mis Padres</h1>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="row d-flex align-items-center justify-content-center pb-4">--}}
+{{--                            <div class="col-md-8 col-sm-10">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="row text-center pt-2">--}}
+{{--                            <div class="col-md-4 mt-3" data-aos='fade-right'>--}}
+{{--                                <h3 class="h2 rouge-script">Uziel Yair Cerón Pérez</h3>--}}
+{{--                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Gracias a Dios por permitirme verte hoy convertida en una hermosa mujer. Ser tu padre es el mayor orgullo de mi vida. ¡Felices XV, hija! Te amo más allá del cielo.</p>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 mb-4">--}}
+{{--                                <img class="img-fluid w-100" src="{{ asset('images/parents/parents_second.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="fade-down" data-aos-duration="1000"/>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4" data-aos='fade-right'>--}}
+{{--                                <h3 class="h2 rouge-script">Lesly Cázares Gutiérrez</h3>--}}
+{{--                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Gracias por enseñarme a ser mamá y compañera de vida. Hoy agradezco a Dios por tus 15 años y por permitirme caminar a tu lado. Te amo con todo mi corazón.</p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="text-center bg-gray-100 pt-3">--}}
+{{--                        <a class="ww-hero-scroll smooth-scroll" href="#GOD_PARENTS" aria-label="Desplazarse hacia abajo">--}}
+{{--                            <i class="fas fa-chevron-down" aria-hidden="true"></i>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
+{{--            <hr class="hr_rounded rounded">--}}
 
 
 
 
             {{--    --}}{{----}}{{------------------ PADRINOS VESTIDO --}}
-                <div class="ww-section" id="GOD_PARENTS">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h1 class="h1 text-center  rouge-script www-title-rose-color"
-                                    data-aos="zoom-in-down" data-aos-duration="1000">Padrinos de iglesia y velación
-                                </h1>
-                                <!-- <img class="img-fluid dress_class mb-2 pb-3"
-                                     src="{{ asset('images/dress/green_dress-removebg.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->
-                            </div>
-                        </div>
-                        <div class="row d-flex align-items-center justify-content-center pb-4">
-                            <div class="col-md-8 col-sm-10">
-                            </div>
-                        </div>
-                        <div class="row text-center pt-2">
-                            <div class="col-md-4 mt-3" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">José Cruz Guerrero Luna</h3>
-                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ashley, agradezco a Dios y a tus papás por permitirme ser tu padrino. Gracias por elegirme para acompañarte en este día tan especial. Que tu vida esté siempre llena de felicidad. Te quiero mucho.</p>
-                            </div>
-                            <div class="col-md-4 pb-4">
-                                <img class="img-fluid w-100 " src="{{ asset('images/dress/dress_principal_2.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                            </div>
-                            <div class="col-md-4" data-aos='fade-right'>
-                                <h3 class="h2 rouge-script">Ivette Cázares Gutiérrez</h3>
-                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Ashley, vuela alto y nunca dejes de creer en tus sueños. Hoy celebramos a la hermosa mujer en la que te estás convirtiendo. Siempre estaré para apoyarte.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="ww-section" id="GOD_PARENTS">--}}
+{{--                    <div class="container">--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col">--}}
+{{--                                <img class="img-fluid flower_class mb-2" src="{{ asset('images/parents/icon_parents.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>--}}
+{{--                                <h1 class="h1 text-center  rouge-script www-title-rose-color"--}}
+{{--                                    data-aos="zoom-in-down" data-aos-duration="1000">Padrinos de iglesia y velación--}}
+{{--                                </h1>--}}
+{{--                                <!-- <img class="img-fluid dress_class mb-2 pb-3"--}}
+{{--                                     src="{{ asset('images/dress/green_dress-removebg.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/> -->--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="row d-flex align-items-center justify-content-center pb-4">--}}
+{{--                            <div class="col-md-8 col-sm-10">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="row text-center pt-2">--}}
+{{--                            <div class="col-md-4 mt-3" data-aos='fade-right'>--}}
+{{--                                <h3 class="h2 rouge-script">José Cruz Guerrero Luna</h3>--}}
+{{--                                <p class="pt-3 text-md-right text-sm-center poppins_regular ">Mi querida Ashley, agradezco a Dios y a tus papás por permitirme ser tu padrino. Gracias por elegirme para acompañarte en este día tan especial. Que tu vida esté siempre llena de felicidad. Te quiero mucho.</p>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 pb-4">--}}
+{{--                                <img class="img-fluid w-100 " src="{{ asset('images/dress/dress_principal_2.png') }}" style="max-width: 275px;" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4" data-aos='fade-right'>--}}
+{{--                                <h3 class="h2 rouge-script">Ivette Cázares Gutiérrez</h3>--}}
+{{--                                <p class="pt-3 text-md-left text-sm-center poppins_regular">Ashley, vuela alto y nunca dejes de creer en tus sueños. Hoy celebramos a la hermosa mujer en la que te estás convirtiendo. Siempre estaré para apoyarte.</p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            <hr class="hr_second rounded">
+{{--            <hr class="hr_second rounded">--}}
 
 {{--            --}}{{----}}{{----------            MIS PALABRAS --}}
-            <div class="py-5">
+            <div class="py-3">
                 <div class="col-12 py-5">
                     <div class="ww-section quote-container"
                          data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000" >
@@ -199,6 +200,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="text-center pt-4">
+                        <a class="ww-hero-scroll smooth-scroll" href="#events" aria-label="Desplazarse hacia abajo">
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -258,6 +264,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center pt-4">
+                    <a class="ww-hero-scroll smooth-scroll" href="#gallery" aria-label="Desplazarse hacia abajo">
+                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
 
 {{--    --}}{{----}}{{-------------------            GALERIA  --}}
@@ -274,23 +285,33 @@
                         <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
                             <div class="card-columns">
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/q1.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q1.jpeg') }}" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/pic_1.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_1.jpeg') }}" alt="Gallery Pic 1"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/q2.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q2.jpg') }}" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/pic_2.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_2.jpeg') }}" alt="Gallery Pic 2"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/q3.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q3.jpg') }}" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/pic_3.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_3.jpeg') }}" alt="Gallery Pic 3"/>
                                     </a>
                                 </div>
                                 <div class="card">
-                                    <a href="{{ asset('images/quinceanera/q4.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/q4.jpg') }}" alt="Gallery Pic 1"/>
+                                    <a href="{{ asset('images/quinceanera/pic_4.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_4.jpeg') }}" alt="Gallery Pic 4"/>
+                                    </a>
+                                </div>
+{{--                                <div class="card">--}}
+{{--                                    <a href="{{ asset('images/quinceanera/pic_6.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">--}}
+{{--                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_6.jpeg') }}" alt="Gallery Pic 6"/>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+                                <div class="card">
+                                    <a href="{{ asset('images/quinceanera/pic_5.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_5.jpeg') }}" alt="Gallery Pic 5"/>
                                     </a>
                                 </div>
 
