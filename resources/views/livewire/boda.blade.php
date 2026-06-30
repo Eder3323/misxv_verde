@@ -11,7 +11,7 @@
                     <div class="collapse navbar-collapse order-2 justify-content-center" id="heroNav">
                         <ul class="navbar-nav ww-nav-links text-center">
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Inicio</a></li>
-{{--                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MI_HISTORIA">Mi Historia</a></li>--}}
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#MI_HISTORIA">Mi Historia</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Evento</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">Confirma tu asistencia</a></li>
                         </ul>
