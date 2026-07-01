@@ -249,11 +249,17 @@
                     </a>
                 </div>
             </div>
-            <div class="ww-spotlight-photo pb-5" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
-                <div class="card">
-                    <a href="{{ asset('images/quinceanera/pic_8.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_8.jpeg') }}" alt="Gallery Pic 8"/>
-                    </a>
+            <div class="container pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10 col-12">
+                        <div class="ww-spotlight-photo" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                            <div class="card">
+                                <a href="{{ asset('images/quinceanera/pic_8.jpeg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                    <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_8.jpeg') }}" alt="Gallery Pic 8"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -323,22 +329,26 @@
             </div>
 
 {{--    --}}{{----}}{{-------------------            GALERIA  --}}
-            <div class="ww-section " id="gallery">
-{{--                <div class="ww-photo-gallery">--}}
-{{--                    <div class="container">--}}
-                            <div class="col">
-                                <img class="img-fluid mb-2 flower_class" src="{{ asset('images/gallery/lista_bg.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
-                                <h2 class="h1 text-center pb-3 ww-title www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Esperamos contar con tu asistencia!</h2>
-                            </div>
-                        <div class="ww-spotlight-photo" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
-                            <div class="card">
-                                <a href="{{ asset('images/quinceanera/pic_7.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
-                                    <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_7.jpg') }}" alt="Gallery Pic 7"/>
-                                </a>
+            <div class="ww-section" id="gallery">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <img class="img-fluid mb-2 flower_class" src="{{ asset('images/gallery/lista_bg.png') }}" alt="mis_padres" data-aos="flip-left" data-aos-duration="1000"/>
+                            <h2 class="h1 text-center pb-3 ww-title www-title-rose-color" data-aos="zoom-in-down" data-aos-duration="1000">Esperamos contar con tu asistencia!</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10 col-12">
+                            <div class="ww-spotlight-photo" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+                                <div class="card">
+                                    <a href="{{ asset('images/quinceanera/pic_7.jpg') }}" data-toggle="lightbox" data-gallery="ww-gallery">
+                                        <img class="img-fluid rounded-lg"  src="{{ asset('images/quinceanera/pic_7.jpg') }}" alt="Gallery Pic 7"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-{{--                    </div>--}}
-{{--                </div>--}}
+                    </div>
+                </div>
             </div>
 
             <hr class="hr_rounded rounded">
