@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mis XV Ashley ❤️</title>
+    @php
+        $shareTitle = 'Mis XV Años Ashley Nicole ❤️';
+        $shareDescription = '¡Acompáñame a celebrar mis XV Años! 8 de agosto de 2026.';
+        $shareUrl = route('home', [], true);
+        $shareImage = asset('images/quinceanera/ash_4.jpeg');
+    @endphp
+    <title>{{ $shareTitle }}</title>
+    <meta name="description" content="{{ $shareDescription }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Wonderful Party">
+    <meta property="og:title" content="{{ $shareTitle }}">
+    <meta property="og:description" content="{{ $shareDescription }}">
+    <meta property="og:url" content="{{ $shareUrl }}">
+    <meta property="og:image" content="{{ $shareImage }}">
+    <meta property="og:image:alt" content="Ashley Nicole — Mis XV Años">
+    <meta property="og:locale" content="es_MX">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $shareTitle }}">
+    <meta name="twitter:description" content="{{ $shareDescription }}">
+    <meta name="twitter:image" content="{{ $shareImage }}">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
