@@ -468,8 +468,10 @@
 
             <div class="ww-footer bg-light">
                 <div class="container text-center py-4 poppins_regular">
-                    <p class="my-0">&copy; Wonderful Party.Social All rights reserved. </p>
-                    <p class="mb-0"> Diseño y Creación por • <a class="credit" href="#">Ing. Eder Escobedo • Cotizaciones al 7751905138 • Bodas / XV Años / Bautizos y Más</a></p>
+                    <p class="my-0 mb-2">&copy; 2026 Wonderful Party</p>
+                    <p class="mb-2">Invitaciones digitales personalizadas para XV Años, Bodas, Bautizos y Eventos Especiales.</p>
+                    <p class="mb-1">Diseño y desarrollo por Ing. Eder Escobedo</p>
+                    <p class="mb-0">📞 Cotizaciones: <a class="credit" href="tel:+527751905138">775 190 5138</a></p>
                 </div>
                 <div class="container text-center py-4 d-none">
                     <audio id="background-music" controls muted autoplay loop>
