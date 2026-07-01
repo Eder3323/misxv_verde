@@ -32,12 +32,12 @@ function unmuteAudio() {
 
 function setMuteIcon() {
     var muteIcon = document.getElementById("mute-img");
-    muteIcon.src = "/music/mute.svg";
+    muteIcon.src = window.__MUSIC_ASSETS.mute;
 }
 
 function setPlayIcon() {
     var muteIcon = document.getElementById("mute-img");
-    muteIcon.src = "/music/play.png";
+    muteIcon.src = window.__MUSIC_ASSETS.play;
 }
 
 

@@ -54,6 +54,12 @@
     <script src="{{ asset('scripts/main.js') }}?ver=1.1.3"></script>
     <script src="{{ asset('scripts/simplyCountdown.min.js') }}"></script>
     <script src="{{ asset('scripts/simply_count.js') }}?ver=1.2.0"></script>
+    <script>
+        window.__MUSIC_ASSETS = {
+            mute: @json(asset('music/mute.svg')),
+            play: @json(asset('music/play.png')),
+        };
+    </script>
     <script src="{{ asset('scripts/music.js') }}"></script>
     <script>
         document.addEventListener('livewire:init', () => {
