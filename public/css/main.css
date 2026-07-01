@@ -564,6 +564,23 @@ body {
 .ww-photo-gallery .ww-gallery {
   min-height: 500px; }
 
+.ww-spotlight-photo {
+  width: 100%;
+}
+
+.ww-spotlight-photo .card {
+  border: none;
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .ww-spotlight-photo {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .ww-photo-gallery .card-columns .card {
   border: none;
   margin-bottom: 15px;

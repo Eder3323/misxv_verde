@@ -15,6 +15,20 @@ $(".ww-nav-bar .nav-link, .ww-nav-bar .ww-nav-heart").on("click", function() {
   }
 });
 
+// Collapse navbar when clicking outside (mobile menu)
+$(document).on("click", function(e) {
+  var $collapse = $("#heroNav");
+  var $navbar = $(".ww-nav-bar");
+
+  if (!$collapse.hasClass("show")) {
+    return;
+  }
+
+  if (!$navbar.is(e.target) && $navbar.has(e.target).length === 0) {
+    $collapse.collapse("hide");
+  }
+});
+
 // Smooth scroll for links with hashes
 $("a.smooth-scroll").click(function(event) {
   // On-page links

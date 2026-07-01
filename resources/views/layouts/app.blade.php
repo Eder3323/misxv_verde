@@ -28,7 +28,7 @@
     <link href="{{ asset('css/font-awesome/css/all.min.css') }}?version=5.15.4" rel="stylesheet">
     <link href="{{ asset('css/aos.css') }}?ver=1.1.0" rel="stylesheet">
     <link href="{{ asset('css/ekko-lightbox.css') }}?ver=1.1.0" rel="stylesheet">
-    <link href="{{ asset('css/main.css') }}?ver=1.3.6" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}?ver=1.3.7" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @livewireStyles
     <noscript>
@@ -51,7 +51,7 @@
     <script src="{{ asset('scripts/bootstrap.bundle.min.js') }}?ver=1.1.0"></script>
     <script src="{{ asset('scripts/aos.js') }}?ver=1.1.0"></script>
     <script src="{{ asset('scripts/ekko-lightbox.min.js') }}?ver=1.1.0"></script>
-    <script src="{{ asset('scripts/main.js') }}?ver=1.1.2"></script>
+    <script src="{{ asset('scripts/main.js') }}?ver=1.1.3"></script>
     <script src="{{ asset('scripts/simplyCountdown.min.js') }}"></script>
     <script src="{{ asset('scripts/simply_count.js') }}?ver=1.2.0"></script>
     <script src="{{ asset('scripts/music.js') }}"></script>
