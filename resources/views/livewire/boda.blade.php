@@ -468,7 +468,7 @@
 
             <div class="ww-footer bg-light">
                 <div class="container text-center py-4 poppins_regular">
-                    <p class="my-0">&copy; Wonderful Party. All rights reserved. </p>
+                    <p class="my-0">&copy; Wonderful Party.Social All rights reserved. </p>
                     <p class="mb-0"> Diseño y Creación por • <a class="credit" href="#">Ing. Eder Escobedo • Cotizaciones al 7751905138 • Bodas / XV Años / Bautizos y Más</a></p>
                 </div>
                 <div class="container text-center py-4 d-none">
