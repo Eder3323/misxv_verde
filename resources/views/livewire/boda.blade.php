@@ -288,7 +288,7 @@
                                 <div class="p-3 rounded-lg shadow-lg">
                                     <div class="h4 ww-title text-center www-title-accent">Misa <i class="fas fa-church text-muted" aria-hidden="true"></i></div>
                                     <div class="h5 poppins_regular text-center mb-3">Parroquia de Nuestra Señora de Guadalupe (La Villita)</div>
-                                    <ul>
+                                    <ul class="ww-event-details">
                                         <li><i class="fas fa-map-marker-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">C. Benito Juárez 506, Centro Tulancingo Hgo</span></li>
                                         <li class="pt-2"><i class="fas fa-calendar-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">8 de Agosto del 2026</span></li>
                                         <li class="pt-2"><i class="fas fa-clock text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">1:00 PM</span></li>
@@ -309,7 +309,7 @@
                                 <div class="p-3 rounded-lg shadow-lg ">
                                     <div class="h4 ww-title text-center www-title-accent">Recepción / Comida <i class="fas fa-utensils text-muted" aria-hidden="true"></i></div>
                                     <div class="h5 poppins_regular text-center mb-3">&nbsp;&nbsp;&nbsp;Salón de Eventos Buenos Aires&nbsp;&nbsp;&nbsp;</div>
-                                    <ul>
+                                    <ul class="ww-event-details">
                                         <li><i class="fas fa-map-marker-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">Salón Buenos Aires, Jaltepec, 43700</span></li>
                                         <li class="pt-2"><i class="fas fa-calendar-alt text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">8 de Agosto del 2026</span></li>
                                         <li class="pt-2"><i class="fas fa-clock text-muted" aria-hidden="true"></i><span class="pl-2 text-muted">3:00 PM</span></li>

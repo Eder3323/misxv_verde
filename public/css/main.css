@@ -540,6 +540,31 @@ body {
 .ww-wedding-event ul {
   list-style: none;
   padding-left: 0; }
+.ww-event-details li {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.ww-event-details li i {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .ww-event-details li {
+    font-size: 1.1rem;
+    line-height: 1.55;
+  }
+  .ww-event-details li i {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 576px) {
+  .ww-event-details li {
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+  .ww-event-details li i {
+    font-size: 1.2rem;
+  }
+}
 
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
