@@ -565,6 +565,26 @@ body {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 768px) {
+  .ww-event-card .ww-btn-location {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.5rem;
+    min-height: 48px;
+  }
+  .ww-event-card .ww-btn-location i {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 576px) {
+  .ww-event-card .ww-btn-location {
+    font-size: 1.15rem;
+    padding: 0.65rem 1.75rem;
+    min-height: 50px;
+  }
+  .ww-event-card .ww-btn-location i {
+    font-size: 1.2rem;
+  }
+}
 
 /* Couple Friends Style  */
 .ww-couple-friends .carousel {
